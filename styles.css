@@ -1,0 +1,38 @@
+#board {
+    padding-top: 3em;
+    text-align: center;
+}
+
+.row {
+   
+    width: 302px;
+    
+    clear: both;
+    margin: 0 auto;
+    
+   }
+.row > div {
+    height: 100px;
+    float:  left;
+    width:  100px
+
+}
+
+.top {
+    
+    border-bottom: 1px solid black;
+}
+.bottom {
+   
+    border-top: 1px solid black;
+}
+.left {
+    
+    border-right: 1px solid black;
+}
+.right {
+    
+    border-left: 1px solid black;
+}
+
+
